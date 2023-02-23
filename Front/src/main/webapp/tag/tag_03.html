@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>글자 관련태그</h1>
+<h3>hn, p, pre, blockquote</h3>
+<hr>
+
+<div style="font-size: 25px;">
+<h1>Heading1</h1>
+<h3>Heading1</h3>
+<h6>Heading1</h6>
+
+<p>가나다라마<br>
+바사아자차<br>
+카타파하</p>
+
+<!-- br태그: line Break, 줄바꿈 태그 -->
+
+<hr>
+<p>아아아아아아아아아아아아아아</p>
+<p>하하하하하하하하하하하하</p>
+<p>가가나다<br>라마바사아자차카</p>
+
+<!-- p는 한문단이다. 상하여백을 가짐 -->
+<!-- 상하 여백은 다른 태그 요소를 밀어낸다. -->
+<!-- 닫는 태그없이 다음<p> 태그가 나오면 안된다. -->
+
+<!-- 브라우저가 알아서 닫는 태그를 넣어주지만 -->
+<!-- 잘 작성된 코드는 아니다. -->
+<hr>
+<p>가나다라마바사
+<p>자차카다파하</p>
+
+<hr>
+
+<p>ABCDE
+FGHJK</p>
+
+<hr>
+
+<p>AB&nbsp;&nbsp;&nbsp;&nbsp;CDE
+FGH&emsp;&emsp;&emsp;&emsp;&emsp;J&ensp;&ensp;&ensp;&ensp;&ensp;K</p>
+
+
+<!-- ** &nbsp; -->
+<!-- NO Break SPace -->
+<!-- 개행없이 띄어쓰기 -->
+<!--  띄어쓰기 한 칸 -->
+
+<!-- ** &ensp; -->
+<!--  emsp 크기의 반절만큼 띄어 쓰기 -->
+
+<!-- ** &emsp; -->
+<!-- EleMent SPace -->
+<!-- em크기(글자 크기) 만큼 띄어 쓰기 한칸 -->
+
+<hr>
+<pre>
+A                 dDde
+
+안	                  녕
+
+preDDDDD                    
+
+
+import java.util.Scanner;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt;
+		
+		System.out.println("num : " + num)
+	}
+	
+}
+</pre>
+
+<div>
+<blockquote>"오늘 날씨가 쌀쌀하네요"</blockquote>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+span::before {
+
+	/* content: "span <br> before"; */
+	content: "span \A before";
+	
+	
+	color: orange;
+	background-color: gray;
+}
+
+.new::after{
+	content: "new";
+	
+	font-size: 10px;
+	background-color:#f66;
+	color: #fff;
+	
+	padding: 0 2px;
+	
+	border-radius : 3px;
+	/*수직 정렬*/
+	vertical-align: middle;
+}
+
+p:not(.new) {
+	background-color: #eee;
+}
+
+</style>
+</head>
+<body>
+<p class="new">
+</p>
+<span>두번째</span>
+<div class="new"> 세번째 </div>
+<p>hi</p>
+</body>
+</html>

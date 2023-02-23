@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+
+table, th, td {
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+
+</style>
+</head>
+<body>
+<h1>테이블 태그</h1>
+<table>
+<tr>
+	<td>1X1 셀</td>
+	<td>1X2 셀</td>
+	<td rowspan="3">1X3 셀</td>
+
+</tr>
+
+<tr>
+	<td>2X1 셀</td>
+	<td>2X2 셀</td>
+	<td>2X3 셀</td><!-- 윗행 확장으로인해 오른쪽으로 밀려남 -->
+</tr>
+
+<tr>
+	<td colspan="2">3X1 셀(글자들 많이)</td>
+</tr>
+
+</table>
+
+</body>
+</html>

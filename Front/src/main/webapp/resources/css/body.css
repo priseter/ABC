@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+	
+	color: tomato;
+}
+
+@import url(../resources/css/other3.css);
+@import url(../resources/css/other4.css);

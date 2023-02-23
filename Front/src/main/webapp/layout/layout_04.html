@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+div {
+	width: 300px;
+	height: 200px;
+}
+
+#div1{ border: 1px solid red;}
+#div2{ border: 1px solid green;}
+#div3{ border: 1px solid blue;}
+
+#div1{ float:left; }
+#div2{ float:right;}
+
+.clearfix{
+	clear: both;
+	width :0;
+	height :0;
+	
+	overflow:hidden;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>float속성을 적용해보기</h1>
+<hr>
+
+<div id="div1">DIV1</div>
+<div id="div2">DIV2</div>
+<div class="clearfix"></div>
+<div id="div3">DIV3</div>
+
+
+</body>
+</html>
